@@ -1,0 +1,6 @@
+database:
+  name: my-database                         # no substitution needed
+  user: "${DB_USER:admin}"                  # string with default
+  password: "${DB_PASSWORD}"                # string without default
+  port: ${DB_PORT:1234}                     # number with default
+  maxConnections: ${DB_MAX_CONNECTIONS}     # number without default
