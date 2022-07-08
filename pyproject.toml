@@ -3,6 +3,9 @@ name = "envawareconfig"
 version = "0.2.1"
 description = "Load configurations from yaml files with automatic environment variable substitution"
 authors = ["marcello <marcello.frattini7@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/mfrattini7/envawareconfig"
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
